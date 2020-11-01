@@ -1,5 +1,7 @@
 # fleetwood-slack
 
+It's a Slack bot that sends you Fleetwood Mac lyrics.
+
 ## Prerequisites:
 - A Slack workspace you want to add the bot to
 - Install Python3
