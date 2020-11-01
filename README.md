@@ -1,11 +1,11 @@
 # fleetwood-slack
 
-Prerequisites:
+## Prerequisites:
 - A Slack workspace you want to add the bot to
 - Install Python3
 - Install ngrok: https://ngrok.com/download
 
-Creating the Slack app:
+## Creating the Slack app:
 1. Go to https://api.slack.com/apps and click Create New App
 2. Name it and choose a workspace
 3. Add Scopes
