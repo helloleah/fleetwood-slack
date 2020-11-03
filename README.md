@@ -39,4 +39,4 @@ source .venv/bin/activate
 export SLACK_SIGNING_SECRET=***
 export SLACK_BOT_TOKEN=xoxb-***
 ```
-8. Run the Flask app: `FLASK_APP=app.py FLASK_ENV=development flask run -p 3000`
+5. Run the Flask app: `FLASK_APP=app.py FLASK_ENV=development flask run -p 3000`
