@@ -12,7 +12,7 @@ It's a Slack bot that sends you Fleetwood Mac lyrics.
 2. Name it and choose a workspace
 3. Add Scopes
     1. Go to OAuth & Permissions
-    2. Under Bot Token Scopes, add permissions. For this app, we at least need `app_mentions:read`, which allows our app to view messages that directly mention our bot
+    2. Under Bot Token Scopes, add permissions. For this app, we at least need `app_mentions:read`, which allows our app to view messages that directly mention our bot, and `chat:write`, which allows our app to send messages
 4. Scroll to the top of the OAuth & Permissions page and click Install App to Workspace
 
 ## Set up the Bolt project:
@@ -39,6 +39,6 @@ export SLACK_BOT_TOKEN=xoxb-***
 2. On Event Subscriptions page, enable events (if not already enabled)
 3. In request URL, put ngrok URL plus `/slack/events`, e.g. `https://8eb44499712a.ngrok.io/slack/events`
 4. Click Subscribe to Bot Events
-5. Add the Bot User Event `app_mention`, which will subscribe to message events that mention our bot
+5. Click Add Bot User Event and add the  `app_mention` event, which will subscribe to message events that mention our bot
 
 Be sure to `/invite` the bot to a channel in your Slack workspace, then try @-mentioning the bot. 
